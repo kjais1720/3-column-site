@@ -1,0 +1,105 @@
+body{
+    background-color: hsl(0, 0%, 95%);
+    padding: 7% 15%;
+    font-size: 15px;
+}
+
+h2{
+    font-family: "Big Shoulders Display";
+    color: white;
+}
+
+button{
+    border-radius: 2cm;
+    padding: 7px 25px ;
+    border: none;
+    outline: none;
+}
+
+
+button:active{
+    box-shadow: 1px 0 0 hsl(0, 0%, 60%),
+    2px 0 0 hsl(0, 0%, 70%),
+    3px 0 0 hsl(0, 0%, 80%),
+    4px 0 0 hsl(0, 0%, 90%),
+    5px 0 0 hsl(0, 0%, 100%);
+}
+
+@media (max-width: 764px){
+    body{
+        padding: 5% 5%;
+    }
+}
+
+img{
+    margin-bottom: 20px;
+}
+
+.card{
+    margin: 0 auto;
+    color: white;
+    border-radius: 2px;
+    padding: 38px 38px 51px 38px;
+    max-width: 400px ;
+}
+
+
+.card p{
+    font-family: "Lexend deca", sans-serif;
+    margin:40px auto ;
+    color: hsla(0, 0%, 100%, 0.75);
+}
+
+.card-1 .card-header{
+    background-color: hsl(31, 77%, 52%);
+    border:none;
+}
+
+.card-1 button{
+    color: hsl(31, 77%, 52%)
+}
+
+.card-1 .card-header::before{
+    content: "";
+    background-image: url("images/icon-sedans.svg");
+}
+
+.card h2{
+    font-family:"Big Shoulders Display", sans-serif ;
+}
+
+
+.card-1{
+    background-color: hsl(31, 77%, 52%);
+}
+
+.card-2 .card-header{
+    background-color: hsl(184, 100%, 22%);
+    border: none;
+}
+
+.card-2 button{
+    color: hsl(184, 100%, 22%);
+}
+
+.card-2{
+    background-color: hsl(184, 100%, 22%)
+}
+
+.card-3 .card-header{
+    background-color: hsl(179, 100%, 13%);
+    border: none;
+}
+
+.card-3 button{
+    color: hsl(179, 100%, 13%);
+}
+
+.card-3{
+    background-color: hsl(179, 100%, 13%) ;
+}
+
+
+button:hover{
+    color: black;
+}
